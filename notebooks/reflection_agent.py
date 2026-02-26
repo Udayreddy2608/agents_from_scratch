@@ -123,7 +123,7 @@ class ReflectionAgent:
                     "content": critique
                 })
             
-            return generation_history
+            return generation
         except Exception as e:
             print(f"Exception occured in run {e}")
 
